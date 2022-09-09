@@ -1,23 +1,64 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Nuxt.js build / generate output
+.nuxt
+dist
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
 
-# testing
-/coverage
+# vuepress build output
+.vuepress/dist
 
-# production
-/build
+# vuepress v2.x temp and cache directory
+.temp
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Docusaurus cache and generated files
+.docusaurus
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
+
+# Optional stylelint cache
+
+# SvelteKit build / generate output
+.svelte-kit
+
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+node_modules
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,react,node
