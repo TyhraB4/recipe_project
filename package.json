@@ -38,5 +38,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "ATCK Recipes Place is a recipe sharing site where you can find the latest recipe trends from across the internet and add your own favorite recipes.\r ATTCK Recipes Place is a recipe sharing site where you can find the latest recipe trends from across the internet and add your own favorite recipes.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnfo222/recipe_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnfo222/recipe_project/issues"
+  },
+  "homepage": "https://github.com/tnfo222/recipe_project#readme"
 }
