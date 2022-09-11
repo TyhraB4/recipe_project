@@ -9,13 +9,13 @@ function Home() {
         <h1>ATTCK Recipe's ™</h1>
       </div>
       <hr></hr>
-      <h2 className="trending">New Recipes Trending Now</h2>
+      <h3 className="trending">New Recipes Trending Now</h3>
       <br></br>
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="my-app\public\images\Chocolate-Chip-Cookie-Icebox-Cake-07-1089x1624_1.jpg"
+            src="https://www.kitchenstories.com/_next/image?url=https%3A%2F%2Fimages.services.kitchenstories.io%2FT9G8LrleROVGrSCX9pzqq48sMNM%3D%2F768x576%2Fimages.kitchenstories.io%2FrecipeImages%2FRP16_01_42_FINAL.jpg&w=1440&q=85"
             alt="Yummy Chocolate Cake Pic"
           />
           <Carousel.Caption>
@@ -26,7 +26,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="my-app\public\images\Kale_Chorizo_tacos.webp"
+            src="recipe_project/public/Images/Kale_Chorizo_tacos.webp"
             alt="Chorizo and Kale Taco Pic"
           />
 
@@ -41,7 +41,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="my-app\public\images\Strawberry-Jalapeno-Ribs-6-of-8-1076x1624.jpg"
+            src="recipe_project/public/Images/Strawberry-Jalapeno-Ribs-6-of-8-1076x1624.jpg"
             alt="Strawberry Jalapeno Ribs Pic"
           />
 
@@ -55,4 +55,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default home;
