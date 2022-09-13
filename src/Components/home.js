@@ -40,7 +40,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="C:\Users\tayfo\Desktop\Projects\recipe_project\public\Strawberry-Sticky-Baby-Back-Ribs-18-728x1024.jpg"
+            src=""
             alt="Strawberry Jalapeno Ribs Pic"
           />
 
