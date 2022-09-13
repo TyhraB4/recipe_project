@@ -1,12 +1,11 @@
 import React from "react";
-import "./index.css";
 import Carousel from "react-bootstrap/Carousel";
 
 function Home() {
   return (
     <main>
       <div>
-        <h1>ATTCK Recipe's ™</h1>
+        <h1>ATTCK Recipes™</h1>
       </div>
       <hr></hr>
       <h2 className="trending">New Recipes Trending Now</h2>
@@ -41,7 +40,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="my-app\public\images\Strawberry-Jalapeno-Ribs-6-of-8-1076x1624.jpg"
+            src="C:\Users\tayfo\Desktop\Projects\recipe_project\public\Strawberry-Sticky-Baby-Back-Ribs-18-728x1024.jpg"
             alt="Strawberry Jalapeno Ribs Pic"
           />
 
