@@ -1,5 +1,6 @@
 import './App.css';
 import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
+import Home from './Components/home';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               </Navbar.Collapse>
             </Container>
           </Navbar>
+          <Home />
     </div>
   );
 }
