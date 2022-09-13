@@ -4,9 +4,6 @@ import Carousel from "react-bootstrap/Carousel";
 function Home() {
   return (
     <main>
-      <div>
-        <h1>ATTCK Recipes™</h1>
-      </div>
       <hr></hr>
       <h2 className="trending">New Recipes Trending Now</h2>
       <br></br>
@@ -14,8 +11,8 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="my-app\public\images\Chocolate-Chip-Cookie-Icebox-Cake-07-1089x1624_1.jpg"
-            alt="Yummy Chocolate Cake Pic"
+            src=""
+            alt="Yummy Chocolate Cake"
           />
           <Carousel.Caption>
             <h3>Chocolate Chip Espresso Icebox Cake</h3>
@@ -25,8 +22,8 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="my-app\public\images\Kale_Chorizo_tacos.webp"
-            alt="Chorizo and Kale Taco Pic"
+            src=".\public\logo192.png"
+            alt="Chorizo and Kale Taco"
           />
 
           <Carousel.Caption>
@@ -41,7 +38,7 @@ function Home() {
           <img
             className="d-block w-100"
             src=""
-            alt="Strawberry Jalapeno Ribs Pic"
+            alt="Strawberry Jalapeno Ribs"
           />
 
           <Carousel.Caption>

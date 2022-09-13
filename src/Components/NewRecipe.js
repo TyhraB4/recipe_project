@@ -1,7 +1,7 @@
 const React = require("react");
 const Def = require("../default");
 
-function new_recipe (data) {
+function NewRecipe (data) {
     
   let message = "";
   if (data.message) {
