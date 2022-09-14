@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
-import Home from "./src/components/home.js";
-import About from ".src/Components/about.js";
-import recipes from "./src/Components/recipes.js";
+import Home from "./Components/home.js";
+import About from "./Components/about.js";
+import recipes from "./Components/recipes.js";
 
 function App() {
   const Recipes = [
