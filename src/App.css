@@ -37,6 +37,25 @@
   }
 }
 
-.img {
-  position: center;
+p {
+  color: black;
+
+}
+
+h3 {
+  color: black;
+}
+
+.trending {
+  color: blue;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+   text-align: center;
+}
+
+Carousel {
+  display: center;
 }
