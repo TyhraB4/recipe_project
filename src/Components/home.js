@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import {Card, Button} from 'react-bootstrap';
 
 function Home() {
   return (
@@ -9,20 +10,22 @@ function Home() {
       <br></br>
       <Carousel>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Yummy Chocolate Cake"
-          />
-          <Carousel.Caption>
-            <h3>Chocolate Chip Espresso Icebox Cake</h3>
-            <p>Yummy chocolate cake...no oven required</p>
-          </Carousel.Caption>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src=".\public\logo192.png"
+            src=".../public/strawberry-ribs.jpg"
             alt="Chorizo and Kale Taco"
           />
 
