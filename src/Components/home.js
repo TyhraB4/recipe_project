@@ -1,4 +1,3 @@
-import Navbar from "./Components/Navbar/index.js";
 import { Form, Button, Card } from "react-bootstrap";
 
 export default function Home() {

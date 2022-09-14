@@ -20,7 +20,7 @@ function App() {
         <header>
           <h1 className="title">ATTCK Recipe's ™</h1>
 
-         < div className="Navbar">
+          <div className="NavBar">
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -31,7 +31,7 @@ function App() {
               <li>
                 <Link to="/recipes">Our Recipes</Link>
               </li>
-                <li>
+              <li>
                 <Link to="/newrecipe">Add a New Recipe</Link>
               </li>
             </ul>
@@ -41,10 +41,8 @@ function App() {
         <div className="display">
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route
-            path="/recipes"
-            render={() => <Recipes recipes={recipes} />}
-          />
+          <Route path="/recipes" render={() => <Recipes recipes={recipes} />} />
+          <Route path="/recipes/new" component={NewRecipe} />
         </div>
       </Router>
     </div>
