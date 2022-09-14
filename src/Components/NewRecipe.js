@@ -1,4 +1,4 @@
-function AddRecipe() {
+function NewRecipe() {
   return (
     <main>
       <h1>Add a New Recipe</h1>
@@ -19,7 +19,7 @@ function AddRecipe() {
           </div>
         </div>
         <div className="form-group">
-          <label htmlFor="categories">Cuisines</label>
+          <label htmlFor="categories">Recipe Categories</label>
           <input
             className="form-control"
             id="cuisines"

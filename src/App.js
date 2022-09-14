@@ -1,9 +1,11 @@
 import "./App.css";
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-
 import Home from "./Components/home.js";
 import About from "./Components/about.js";
 import recipes from "./Components/recipes.js";
+import NewRecipe from "./Components/newrecipe.js";
+import NavBar from "./Components/Navbar/index.js";
+
 
 function App() {
   const Recipes = [
@@ -18,7 +20,7 @@ function App() {
         <header>
           <h1 className="title">ATTCK Recipe's ™</h1>
 
-          <div className="Navbar">
+         < div className="Navbar">
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -28,6 +30,9 @@ function App() {
               </li>
               <li>
                 <Link to="/recipes">Our Recipes</Link>
+              </li>
+                <li>
+                <Link to="/newrecipe">Add a New Recipe</Link>
               </li>
             </ul>
           </div>
