@@ -1,6 +1,5 @@
 import "./App.css";
-import { Navbar, Container, Nav, Form, Button, NavDropdown } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
+import { Navbar, Container, Nav, Form, Button, NavDropdown, Carousel, Card } from "react-bootstrap";
 
 function App() {
   return (
@@ -53,25 +52,24 @@ function App() {
       <br></br>
       <Carousel>
         <Carousel.Item>
-          <img
-            height={900}
-            width={20}
-            className="d-block w-75"
-            src="https://www.kitchenstories.com/_next/image?url=https%3A%2F%2Fimages.services.kitchenstories.io%2FT9G8LrleROVGrSCX9pzqq48sMNM%3D%2F768x576%2Fimages.kitchenstories.io%2FrecipeImages%2FRP16_01_42_FINAL.jpg&w=1440&q=85"
-            alt="Yummy Chocolate Cake Pic"
-          />
-          <Carousel.Caption>
-            <h3>Chocolate Chip Espresso Icebox Cake</h3>
-            <p>Yummy chocolate cake...no oven required</p>
-          </Carousel.Caption>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src="https://www.kitchenstories.com/_next/image?url=https%3A%2F%2Fimages.services.kitchenstories.io%2FT9G8LrleROVGrSCX9pzqq48sMNM%3D%2F768x576%2Fimages.kitchenstories.io%2FrecipeImages%2FRP16_01_42_FINAL.jpg&w=1440&q=85"
+              alt=""
+            />
+            <Card.Body>
+              <Card.Title>Chocolate Chip Espresso Icebox Cake</Card.Title>
+              <Card.Text>Yummy chocolate cake...no oven required</Card.Text>
+              <Button variant="primary">Check out Recipe Here</Button>
+            </Card.Body>
+          </Card>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            height={900}
-            width={20}
-            className="d-block w-75"
-            src="https://www.mymoderncookery.com/wp-content/uploads/2016/05/DSC_0285-665x1024.jpg.webp"
-            alt="Chorizo and Kale Taco Pic"
+            className="d-block w-100"
+            src=".../public/strawberry-ribs.jpg"
+            alt="Chorizo and Kale Taco"
           />
 
           <Carousel.Caption>
@@ -84,11 +82,9 @@ function App() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            height={950}
-            width={20}
-            className="d-block w-75"
-            src="https://www.mymoderncookery.com/wp-content/uploads/2018/05/Curlys-Strawberry-Jalapeno-Ribs-6-of-8-1076x1624.jpg.webp"
-            alt="Strawberry Jalapeno Ribs Pic"
+            className="d-block w-100"
+            src=""
+            alt="Strawberry Jalapeno Ribs"
           />
 
           <Carousel.Caption>
