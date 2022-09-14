@@ -1,7 +1,8 @@
-function About() {
+export default function About() {
     return (
       <main>
         <div className="About Us"></div>
+        <h1>About Our Site</h1>
         <div>
           <p>
             Team ATTCK Recipes is a bad-ass recipe website created by Ashley Beal,
@@ -12,4 +13,3 @@ function About() {
     );
   }
   
-  export default About;

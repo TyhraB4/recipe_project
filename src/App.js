@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 import Home from "./src/components/home.js";
 import About from ".src/Components/about.js";
-import Packages from "./components/Packages";
+import recipes from "./src/Components/recipes.js";
 
 function App() {
-  const recipes = [
+  const Recipes = [
     "Spicy Chicken Pad Thai",
     "Strawberry Jalapeno Baby Back Ribs",
     "Chocolate Chip Espresso Icebox Cake",
@@ -27,7 +27,7 @@ function App() {
                 <Link to="/about">About Us</Link>
               </li>
               <li>
-                <Link to="/recipes">Our Packages</Link>
+                <Link to="/recipes">Our Recipes</Link>
               </li>
             </ul>
           </div>
@@ -35,7 +35,7 @@ function App() {
 
         <div className="display">
           <Route path="/" component={Home} />
-          <Route path="/about" component={About Us} />
+          <Route path="/about" component={About} />
           <Route
             path="/recipes"
             render={() => <Recipes recipes={recipes} />}

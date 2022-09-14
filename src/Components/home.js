@@ -1,7 +1,7 @@
 import "./App.css";
 import { Navbar, Container, Nav, Form, Button, NavDropdown, Carousel, Card,} from "react-bootstrap";
 
-function Home() {
+export default function Home() {
   return (
     <main>
       <div>
@@ -97,4 +97,4 @@ function Home() {
   );
 }
 
-export default Home;
+
