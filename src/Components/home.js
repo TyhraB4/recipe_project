@@ -3,7 +3,7 @@ import "./index.css";
 import Carousel from "react-bootstrap/Carousel";
 import "./App.css";
 
-function home() {
+function Home() {
   return (
     <main>
       <div>
@@ -62,4 +62,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;

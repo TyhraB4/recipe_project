@@ -1,7 +1,6 @@
 import "./App.css";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav, Form, Button, NavDropdown } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-
 
 function App() {
   return (
@@ -30,6 +29,16 @@ function App() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        <Form className="d-flex">
+          <Form.Control
+            type="search"
+            placeholder="Search"
+            className="me-2"
+            aria-label="Search"
+          />
+          <Button variant="outline-success">Search</Button>
+        </Form>
+
         <h1>ATTCK Recipe's ™</h1>
       </div>
       <div>
