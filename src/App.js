@@ -47,7 +47,7 @@ function App() {
         <br></br>
         <Carousel>
           <Carousel.Item>
-            <Card style={{ width: "18rem"}}>
+            <Card style={{ width: "20rem"}}>
               <Card.Img
                 variant="top"
                 src="https://www.kitchenstories.com/_next/image?url=https%3A%2F%2Fimages.services.kitchenstories.io%2FT9G8LrleROVGrSCX9pzqq48sMNM%3D%2F768x576%2Fimages.kitchenstories.io%2FrecipeImages%2FRP16_01_42_FINAL.jpg&w=1440&q=85"
@@ -61,29 +61,32 @@ function App() {
             </Card>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://th.bing.com/th/id/R.78213d82ab4b17645bced6d6d6f421ed?rik=VZZZIdUrcr0q6A&riu=http%3a%2f%2fwww.mymoderncookery.com%2fwp-content%2fuploads%2f2016%2f05%2fDSC_0264-861x1024.jpg&ehk=aAbfoE5uOx%2bL38t%2b8deseWF6J%2fJxXBvu9Uc14eA6pq8%3d&risl=&pid=ImgRaw&r=0"
-              alt="Chorizo and Kale Taco"
-            />
-            <Carousel.Caption>
-              <h3>Kale Chorizo Tacos</h3>
-              <p>
-                Quick and easy spicy chorizo tacos with kale, mushrooms and
-                avacado crema.
-              </p>
-            </Carousel.Caption>
+            <Card style={{ width: "20rem"}}>
+              <Card.Img
+                variant="top"
+                src="https://www.mymoderncookery.com/wp-content/uploads/2016/05/DSC_0285.jpg.webp"
+                alt="Kale and Chorizo Tacos"
+              />
+              <Card.Body>
+                <Card.Title>Kale Chorizo Tacos</Card.Title>
+                <Card.Text>Quick and easy spicy chorizo tacos with kale, mushrooms, and avacado crema.</Card.Text>
+                <Button variant="primary">Check out recipe here!</Button>
+              </Card.Body>
+            </Card>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="./public/images/"
-              alt="Strawberry Jalapeno Ribs"
-            />
-            <Carousel.Caption>
-              <h3>Strawberry Jalapeno Baby Back Ribs</h3>
-              <p>Awesome ribs with a little heat and a little sweet.</p>
-            </Carousel.Caption>
+            <Card style={{width: "20rem"}}>
+              <Card.Img
+                variant="top"
+                src="https://www.mymoderncookery.com/wp-content/uploads/2018/05/Curlys-Strawberry-Jalapeno-Ribs-6-of-8.jpg.webp"
+                alt="Ribs with Jalapenos and Strawberries"
+              />
+              <Card.Body>
+                <Card.Title>Strawberry Jalapeno Baby Rack Ribs</Card.Title>
+                <Card.Text>Awesome ribs with a little heat and a little sweet.</Card.Text>
+                <Button variant="primary">Check out recipe here!</Button>
+              </Card.Body>
+            </Card>
           </Carousel.Item>
         </Carousel>
       </Router>
