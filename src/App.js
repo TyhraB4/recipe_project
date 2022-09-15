@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { Form, Container, Nav, Navbar, Button, Card } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import Home from "./Components/home.js";
@@ -91,9 +91,6 @@ function App() {
           </Carousel.Item>
         </Carousel>
       </Router>
-      <Routes>
-        <Route path="/create" element = {<Create />}/>
-      </Routes>
     </div>
   );
 }

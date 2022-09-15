@@ -34,7 +34,7 @@ export default function Create() {
         })
 
         setForm({picture:"", title:"", text:"", ingredients:""});
-        navigate("/allrecipes");
+        navigate("/recipes");
     }
 
     return (
