@@ -30,16 +30,16 @@ function App() {
                 </Nav>
               </Navbar.Collapse>
               </Container>
+              <Form className="d-flex">
+                <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+                />
+                <Button variant="outline-success">Search</Button>
+              </Form>
             </Navbar>
-            <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
           </Container>
         </header>
         <h2 className="trending">New Recipes Trending Now</h2>
@@ -76,7 +76,7 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src=""
+              src="./public/images/"
               alt="Strawberry Jalapeno Ribs"
             />
             <Carousel.Caption>
