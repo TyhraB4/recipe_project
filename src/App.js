@@ -13,12 +13,12 @@ function App() {
     <div className="App:">
       <Router>
         <header>
-          <h1 className="ATTCK Recipes">Welcome Page</h1>
+          <h1 className="ATTCK Recipes">Get Cooking with ATTCK Recipes!</h1>
 
           <Container>
             <Navbar bg="light" expand="lg">
               <Container>
-              <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+              <Navbar.Brand href="#home">ATTCK</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
