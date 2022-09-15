@@ -85,11 +85,6 @@ function App() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <div className="display">
-          <Route path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/packages" render={() => <Recipes recipe={recipes}/>}  />
-        </div>
       </Router>
     </div>
   );
