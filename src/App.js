@@ -10,15 +10,16 @@ function App() {
   const recipes = ['Activate your Crystals', 'Monkey Meditation', 'Soak in the Hotsprings', 'Hypnotherapy', 'Mineral Bath']
 
   return (
-    <div className="App:">
+    <div className="App:" style={{ backgroundImage: `url("https://images.unsplash.com/reserve/EnF7DhHROS8OMEp2pCkx_Dufer%20food%20overhead%20hig%20res.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80")`
+    }}>
       <Router>
         <header>
           <h1 className="ATTCK Recipes">Get Cooking with ATTCK Recipes!</h1>
 
           <Container>
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="dark" expand="lg">
               <Container>
-              <Navbar.Brand href="#home">ATTCK</Navbar.Brand>
+              <Navbar.Brand href="/">ATTCK</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -32,10 +33,10 @@ function App() {
               </Container>
               <Form className="d-flex">
                 <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
+                  type="search"
+                  placeholder="Search"
+                  className="me-2"
+                  aria-label="Search"
                 />
                 <Button variant="outline-success">Search</Button>
               </Form>
@@ -62,7 +63,7 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src=".../public/strawberry-ribs.jpg"
+              src="https://th.bing.com/th/id/R.78213d82ab4b17645bced6d6d6f421ed?rik=VZZZIdUrcr0q6A&riu=http%3a%2f%2fwww.mymoderncookery.com%2fwp-content%2fuploads%2f2016%2f05%2fDSC_0264-861x1024.jpg&ehk=aAbfoE5uOx%2bL38t%2b8deseWF6J%2fJxXBvu9Uc14eA6pq8%3d&risl=&pid=ImgRaw&r=0"
               alt="Chorizo and Kale Taco"
             />
             <Carousel.Caption>
