@@ -1,10 +1,11 @@
 import "./App.css";
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import { Form, Container, Nav, Navbar, Button, Card } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import Home from "./Components/home.js";
 import About from "./Components/about.js";
 import Recipes from "./Components/Recipes.js";
+import Create from "./Components/create.js";
 
 function App() {
   const recipes = ['Activate your Crystals', 'Monkey Meditation', 'Soak in the Hotsprings', 'Hypnotherapy', 'Mineral Bath']
@@ -90,6 +91,9 @@ function App() {
           </Carousel.Item>
         </Carousel>
       </Router>
+      <Routes>
+        <Route path="/create" element = {<Create />}/>
+      </Routes>
     </div>
   );
 }

@@ -10,9 +10,9 @@ export default function Recipes(props) {
       <Container>
           <Card>
               <Card.Body>
-                  <Card.Title>Our Packages</Card.Title>
+                  <Card.Title>${}</Card.Title>
                   <Card.Text>
-                      Check out some of our packages! Every package is ethically sourced and organic!
+                      ${}
                   </Card.Text>
               </Card.Body>
               <ListGroup>
