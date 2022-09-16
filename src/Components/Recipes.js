@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Card, Button } from "react-bootstrap";
 
 export default function RecipeList() {
   const[recipes, setRecipes] = useState([]);
@@ -21,9 +22,23 @@ export default function RecipeList() {
 
     return;
   }, []);
+
   const display = recipes.map(recipe => {
     return (
-        <p key={recipe._id}>{recipe.name}</p>
+        <p key={recipe._id}>
+          <Card style={{ width: "20rem"}}>
+            <Card.Body>
+              <Card.Title>
+                {recipe.name}
+              </Card.Title>
+              <Card.Text>
+                <p>{recipe.category}</p>
+                <p>{recipe.type}</p>
+                <Button variant="primary">Check out recipe here!</Button>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </p>
     )
 })
 
