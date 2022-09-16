@@ -3,10 +3,13 @@ import { useNavigate } from "react-router";
 
 export default function Create() {
     const[form, setForm] = useState({
-        picture:"",
-        title:"",
-        text:"",
-        ingredients:""
+        image:"",
+        name:"",
+        ingredients:"",
+        type:"",
+        instructions:"",
+        category:""
+
     });
     const navigate = useNavigate();
 
@@ -21,7 +24,7 @@ export default function Create() {
 
         const newRecipe = { ...form };
 
-        await fetch("", { 
+        await fetch("https://attck-recipes-back-end.herokuapp.com/recipes", { 
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -33,7 +36,7 @@ export default function Create() {
             return;
         })
 
-        setForm({picture:"", title:"", text:"", ingredients:""});
+        setForm({name:"", type:"", ingredients:"", category:"", instructions:"", image:""});
         navigate("/recipes");
     }
 

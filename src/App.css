@@ -37,6 +37,18 @@
   }
 }
 
+h1 {
+  color: rgb(255,255,255);
+  font-family: 'Courier New', 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+h2 {
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
 .carousel {
   margin-left: 300px;
   margin-right: 275px;
@@ -49,11 +61,6 @@
 
 .navbar {
   border-radius: 30px;
-}
-
-.navbar-brand {
-  color: rgb(224, 224, 224);
-  font-family: 'Courier New', Courier, monospace;
 }
 
 .card {
