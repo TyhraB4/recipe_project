@@ -20,22 +20,27 @@ export default function RecipeList() {
     getRecipes();
 
     return;
-  }, [recipes.length]);
+  }, []);
+  const display = recipes.map(recipe => {
+    return (
+        <p key={recipe._id}>{recipe.name}</p>
+    )
+})
 
 
-  function Recipes(props) {
-    const { name, ingredients, type, instructions, category, image } = props;
+  // function Recipes(props) {
+    // const { name, ingredients, type, instructions, category, image } = props;
       return(
         <div>
-          <h3> Recipe List </h3>
-            <p>Name: {name}</p>
+          {recipes.length && display}
+          {/* <h3> Recipe List </h3> */}
+            {/* <p>Name: {name}</p>
             <p>Ingredients: {ingredients}</p>
             <p>Type: {type}</p>
             <p>Instructions: {instructions}</p>
             <p>Category: {category}</p>
-            <p>Image: {image}</p>
+            <p>Image: {image}</p> */}
         </div>
       )
-  }
-  Recipes();
+  // }
 }

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import { Form, Container, Nav, Navbar, Button } from "react-bootstrap";
 import Home from "./Components/home.js";
 import About from "./Components/about.js";
-import Recipes from "./Components/Recipes.js";
+import RecipeList from "./Components/Recipes.js";
 
 
 function App() { 
@@ -48,7 +48,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
-          <Route path="/recipes" element={<Recipes/>}></Route>
+          <Route path="/recipes" element={<RecipeList/>}></Route>
         </Routes>
       </Router>
     </div>
