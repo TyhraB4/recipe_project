@@ -73,6 +73,10 @@ h2 {
   margin-left: 30px;
 }
 
+.card-text ,.card-title{
+  color:black;
+}
+
 div {
   color:aliceblue;
 }
